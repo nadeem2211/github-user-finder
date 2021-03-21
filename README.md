@@ -1,3 +1,6 @@
+this is a toy project app. you can have atest of it here -
+https://githubuser-finder.herokuapp.com/
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
