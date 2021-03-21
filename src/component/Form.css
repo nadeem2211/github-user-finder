@@ -1,7 +1,12 @@
 form {
 	border: thin solid #888;
+  border-radius: 10px;
   padding: 2rem;
   margin-bottom: 2rem;
   display: flex;
   justify-content: center;
 }
+
+input{
+  border-radius: 5px;
+};

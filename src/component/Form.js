@@ -9,6 +9,7 @@ class Form extends React.Component {
   	event.preventDefault();
     const resp = await axios.get(`https://api.github.com/users/${this.state.userName}`);
     this.props.onSubmit(resp.data);
+    console.log(resp.data);
     this.setState({ userName: '' });
   };
 	render() {
@@ -21,7 +22,7 @@ class Form extends React.Component {
           placeholder="GitHub username" 
           required 
         />
-        <button>Add card</button>
+        <button>Search</button>
     	</form>
     );
   }

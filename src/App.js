@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import Form from './component/Form.js'
 import CardList from './component/CardList.js'
+import './App.css'
 
 
 class App extends React.Component {
