@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './Card.css'
+// import Avatar from '@material-ui/core/Avatar';
 
 // GitHub usernames: gaearon, sophiebits, sebmarkbage, bvaughn
 

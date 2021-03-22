@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import axios from 'axios'
 import './Form.css'
-
+import Button from '@material-ui/core/Button';
 
 class Form extends React.Component {
 	state = { userName: '' };
@@ -14,7 +14,7 @@ class Form extends React.Component {
   };
 	render() {
   	return ( 
-    	<form onSubmit={this.handleSubmit}>
+    	<form >
     	  <input 
           type="text" 
           value={this.state.userName}
@@ -22,7 +22,7 @@ class Form extends React.Component {
           placeholder="GitHub username" 
           required 
         />
-        <button>Search</button>
+        <Button variant="contained" color="primary" size="small" onClick={this.handleSubmit}>Search</Button>
     	</form>
     );
   }
